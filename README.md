@@ -1,3 +1,0 @@
-# Workshop & Assignment Reflections
-
-This repository contains my submissions for the physics simulation workshops and assignments. Working on these tasks really helped me understand how realtime physics engines operate under the hood. I learned how discrete time stepping frame by frame can cause fast objects to jump right through walls a bug called tunneling and how small numerical adjustments and micro bounces end up acting like artificial friction that drains energy even when loss is set to zero e=1. I also saw how quickly performance breaks down collision loop; while 200–300 balls run smoothly, pushing past that overloads the CPU and drops the frame rate, showing why techniques like spatial partitioning are essential for bigger simulations.
